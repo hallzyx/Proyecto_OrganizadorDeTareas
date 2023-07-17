@@ -2,7 +2,7 @@
 
 Este es el proyecto inicial para crear aplicaciones usando webpack.
 
-###Notas:
+### Notas:
 
 Recordar extraer los modulos de node.js
 ```
