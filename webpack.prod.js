@@ -37,6 +37,7 @@ module.exports={
             {
                 test:/\.css$/i,
                 exclude:/styles\.css$/i,
+                exclude:/reset\.css$/i,
                 use:[
                     'style-loader',
                     'css-loader'
@@ -52,6 +53,14 @@ module.exports={
                     'css-loader'
                 ],
             },
+            {
+                test:/reset\.css$/i,
+                use:[
+                    MiniCssExtractPlugin.loader,
+                    'css-loader'
+                ],
+            },
+
             
             { 
                     /*loader: 'html-loader',
